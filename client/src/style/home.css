@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Frame1{
+    background-color: blue;
+    height: 90vh;
+    opacity: 50%;
+}
+.Frame2{
+    background-color: green;
+    height: 90vh;
+    opacity: 40%;
+}
+.Frame3{
+    background-color: yellow;
+    height: 90vh;
+    opacity: 30%;
+}
+.Frame4{
+    background-color: red;
+    height: 90vh;
+    opacity: 30%;
+}
+.titre{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    font-family: "Roboto",Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
