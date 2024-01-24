@@ -2,11 +2,12 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./component/navbar";
 //commande rfce
-import Home from "./pages/Acceuil";
-import Sports from "./pages/Sports";
-import Meteo from "./pages/Meteo";
+import Home from "./pages/Home";
+import Shop from "./pages/Shop";
+import Nous from "./pages/Nous";
+import Panier from "./pages/Panier";
 import Contact from "./pages/Contact";
-import Error from "./pages/Error";
+import Error from "./pages/Connexion";
 
 export default function Navigation() {
   return (
@@ -15,9 +16,10 @@ export default function Navigation() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/sports" element={<Sports />} />
-          <Route path="/meteo" element={<Meteo />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/nous" element={<Nous />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/panier" element={<Panier />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>

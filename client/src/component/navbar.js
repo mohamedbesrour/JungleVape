@@ -66,7 +66,7 @@ const Navbar = () => {
 
   return (
     <Nav>
-      <Logo>Garage Auto</Logo>
+      <Logo><Link to="/">Jungle Vape</Link></Logo>
 
       <MobileNavToggle onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}>
         {isMobileNavOpen ? "Close" : "Menu"}
@@ -74,19 +74,19 @@ const Navbar = () => {
 
       <DesktopNav>
         <NavItem>
-          <Link to="/">SHOP</Link>
+          <Link to="/shop">SHOP</Link>
         </NavItem>
         <NavItem>
-          <Link to="/sports">QUI SOMMES-NOUS</Link>
+          <Link to="/nous">QUI SOMMES-NOUS</Link>
         </NavItem>
         <NavItem>
-          <Link to="/meteo">CONTACT</Link>
+          <Link to="/contact">CONTACT</Link>
         </NavItem>
         <NavItem>
-          <Link to="/contact">MON PANIER</Link>
+          <Link to="/panier">MON PANIER</Link>
         </NavItem>
         <NavItem>
-          <Link to="/*">CONNEXION</Link>
+          <Link to="/connexion">CONNEXION</Link>
         </NavItem>
       </DesktopNav>
 
