@@ -2,7 +2,7 @@ import React from "react";
 import '../style/footer.css'
 export default function Footer() {
   return (
-    <div>
+    <>
       <footer className="footer">
         <div className="footainer">
           <div className="row">
@@ -83,6 +83,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-    </div>
+    </>
   );
 }
