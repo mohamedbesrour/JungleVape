@@ -2,6 +2,8 @@ import React from "react";
 import "../style/nous.css";
 import decobord1 from "../assets/decobord1.jpg";
 import decobord2 from "../assets/decobord2.jpg";
+
+import Favori from '../component/favori';
 // import Bord1 from '../assets/decobord1.jpg'<Bord1/>
 export default function Nous() {
   return (
@@ -76,6 +78,8 @@ export default function Nous() {
         alt="bordure-decorative-Droite"
         className="decorative-image right-image"
       /> */}
+
+<Favori/>
     </>
   );
 }

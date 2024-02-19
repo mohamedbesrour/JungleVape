@@ -1,0 +1,24 @@
+.sectionfavori{
+  width: 100%;
+  height: 480px;
+  /* background-color: rgb(215, 112, 10); */
+}
+.titrefavori{
+  margin-left: auto;
+  margin-right: auto;
+  color: red;
+}
+.carousel {
+  display: flex;
+  overflow: hidden;
+}
+/* .slide {
+  flex: 0 0 auto;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.slide.active {
+  opacity: 1;
+ } */
+
